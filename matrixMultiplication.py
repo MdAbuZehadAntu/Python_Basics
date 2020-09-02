@@ -1,9 +1,9 @@
 from numpy import *
 row = int(input("Row : "))
-col = int(input("colum : "))
+col = int(input("Column : "))
 A=[]
 B=[]
-
+p
 for i in range(row):
     c=[]
     for j in range(col):

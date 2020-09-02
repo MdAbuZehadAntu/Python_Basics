@@ -7,7 +7,7 @@ class A:
     def feature2(self):
         print("Feature 2 in A")
 
-class B():
+class B(A):
     def __init__(self):
         print("In B's constructor")
 
@@ -30,5 +30,6 @@ class C(A,B):
 
 c1=C()
 c1.feat()
+b1=B()
 
 # MRO=Method Resolution Order
