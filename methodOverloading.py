@@ -9,7 +9,7 @@ class Student:
         elif a!=None and b!=None:
             return a+b;
         else:
-            return a+b;
+            return a+b+c;
 
 s1=Student(45,5);
 
